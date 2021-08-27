@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <form action="{{url_for('update')}}" method="post">
+        <h3>Update Records</h3>
+        Name<br>
+        <input type="text" name="nm"><br>
+
+        Address<br>
+        <textarea type="text" name="add"></textarea><br>
+
+        City<br>
+        <input type="text" name="city"><br>
+
+        PinCode<br>
+        <input type="text" name="pin">
+
+        <br><input type="submit" value="Update"><br>
+    </form>
+</body>
+</html>
